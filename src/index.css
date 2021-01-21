@@ -4,6 +4,16 @@ body {
   background-image: linear-gradient(to right bottom, #f9d423, #ff4e50);
   background-attachment: fixed;
 }
+
+a {
+  text-decoration: none;
+  color: #354548;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ff4e50;
+}
 .container {
   padding-top: 50px;
 }
@@ -46,21 +56,59 @@ body {
 }
 .sidebar__name {
   font-family: Kaushan Script;
-  margin :20px 0;
-  font-size: 30px;
+  margin: 20px 0;
+  font-size: 1.7rem;
 }
-.sidebar__name>span{
-  color:#ff4e50;
+.sidebar__name > span {
+  color: #ff4e50;
 }
 
-.sidebar__item{
-  margin-bottom:6px;
-  padding-top:6px;
+.sidebar__item {
+  margin-bottom: 6px;
+  padding-top: 6px;
   height: 40px;
   font-size: 1.05rem;
+  border-radius: 30px;
 }
 
-.sidebar__title{
+.sidebar__title {
   background-color: #f1f1f1;
-  border-radius: 30px;;
+  border-radius: 30px;
+}
+
+.sidebar__social-icons {
+  background-color: #ffffff;
+}
+.sidebar__contact {
+  background-color: #dbdddf;
+  padding: 2px 0;
+  /* margin-top: 5px; */
+  margin: 20px -15px;
+}
+
+.sidebar__email {
+  background-image: linear-gradient(to right bottom, #f9d423, #ff4e50);
+  border-radius: 30px;
+  margin: 15px 25px 0px;
+  cursor: pointer;
+  transition: all 3s linear;
+}
+/* .sidebar__github {
+  justify-content: center;
+  background-color: yellow;
+} */
+.sidebar__email:hover {
+  transform: scale(1.1);
+}
+.sidebar__github:hover,
+.sidebar__resume:hover {
+  /* margin: 0 px; */
+  background-color: #f1f1f2;
+  color: #000;
+}
+
+@media (max-width: 991px) {
+  .app_main-content {
+    margin: 30px 0;
+  }
 }
