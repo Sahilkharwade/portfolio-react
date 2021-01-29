@@ -1,6 +1,7 @@
 import React from 'react';
 import facebook from '../assets/icons/facebook.svg';
-import instagram from '../assets/icons/instagram.svg';
+
+import linkedin from '../assets/icons/linkedin.svg';
 import github from '../assets/icons/github.svg';
 import pin from '../assets/icons/pin.svg';
 import tie from '../assets/icons/tie.svg';
@@ -29,23 +30,24 @@ function Sidebar() {
           <img src={facebook} alt='facebook' className='sidebar__icon mr-3' />
         </a>
         <a href='#'>
-          <img src={instagram} alt='instagram' className='sidebar__icon' />
+          <img src={linkedin} alt='linkedin' className='sidebar__icon' />
         </a>
       </div>
 
       <div className='sidebar__contact'>
         <div className='sidebar__item sidebar__github '>
-          <a href="#">
+          <a href='#'>
             <img
               src={github}
               alt='github'
               className='sidebar__icon sidebar__github'
-            /> github
+            />{' '}
+            github
           </a>
         </div>
         <div className='sidebar__location mt-3'>
-          <img src={pin} alt='location' className='sidebar__icon' />  Wardha,Maharashta,India
-               
+          <img src={pin} alt='location' className='sidebar__icon' />{' '}
+          Wardha,Maharashta,India
         </div>
         <div className='sidebar__item mt-3'>skharwade.smk@gmail.com</div>
         <div className='sidebar__item'>9763595674</div>

@@ -14,11 +14,11 @@ a:hover {
   text-decoration: none;
   color: #ff4e50;
 }
-.container {
+.app__container {
   padding-top: 50px;
 }
-.row {
-  height: 90vh;
+.app__row {
+  height: 88vh;
 }
 
 .app_sidebar {
@@ -125,16 +125,63 @@ navbar */
   color: #354358;
   border-bottom: 4px solid #ff4e50;
 }
-.navbar__item{
+.navbar__item {
   margin-right: 20px;
   text-decoration: none;
-  color:#354358;
-  cursor:pointer;
+  color: #354358;
+  cursor: pointer;
 }
-.navbar__item:hover{
+.navbar__item:hover {
   background: -webkit-linear-gradient(#f9d423, #ff4e50);
   background-clip: text-decoration;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
 
+/* about */
+
+.about {
+  padding: 20px;
+  margin: -34px;
+}
+.about__intro {
+  font-size: 1.1 rem;
+  padding: 20px;
+  margin:10px 0;
+}
+.about__container {
+  background-color: #dbdddf;
+  padding: 20px 30px;
+}
+
+.about__heading {
+  font-size: 25px;
+  font-weight: 700;
+  color: #354358;
+  margin-left:  10px;
+}
+/* 
+skill_card */
+
+.skill-card {
+  background-color: #fff;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+}
+
+.skill-card__icon {
+  width: 40px;
+  height: 40px;
+}
+.skill-card-body {
+  margin-left: 15px;
+}
+
+.skill_card__content {
+  margin: 0;
+  font-size: 0.9rem;
+  color: red;
 }
