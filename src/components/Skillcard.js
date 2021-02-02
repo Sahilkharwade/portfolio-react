@@ -8,6 +8,7 @@ function Skillcard({skill}) {
         <div className='skill-card-body'>
           <h6 className='skill-card__title'>{skill.title}</h6>
           <p className='skill-card__content'>{skill.about}</p>
+          
         </div>
       </div>
     </div>
